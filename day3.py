@@ -87,7 +87,6 @@ segments = list(map(get_segments, paths))
 crossings = find_crossings(segments[0], segments[1])
 if (0,0) in crossings:
     crossings.remove((0,0))
-print(crossings)
 print(min(map(lambda p: manhattan((0,0), p), crossings)))
 
 # Part 2
