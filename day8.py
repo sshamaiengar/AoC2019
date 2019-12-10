@@ -5,15 +5,17 @@ inp = input()
 W = 25
 H = 6
 
-min_zeros_layer = None
-min_zeros = float('inf')
-ans = 0
-for i in range(0,len(inp),W*H):
-    counts = Counter(inp[i:i+W*H])
-    if counts['0'] < min_zeros:
-        min_zeros = counts['0']
-        min_zeros_layer = i//(W*H)
-        ans = counts['1'] * counts['2']
+def part1(inp):
+    min_zeros_layer = None
+    min_zeros = float('inf')
+    ans = 0
+    for i in range(0,len(inp),W*H):
+        counts = Counter(inp[i:i+W*H])
+        if counts['0'] < min_zeros:
+            min_zeros = counts['0']
+            min_zeros_layer = i//(W*H)
+            ans = counts['1'] * counts['2']
+    return ans
 
 def reshape_layer(layer):
     grid = []
@@ -42,7 +44,7 @@ def show(pixels):
         print("".join(map(lambda p: colors[p], r)))
 
 # Part 1
-print(ans)
+print(part1(inp))
 
 # Part 2
 show(decode(inp))
