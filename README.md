@@ -21,6 +21,7 @@
 ### Day 8
 - Decode image based on overlapping layers of pixel values (black, white, transparent)
 ### Day 9
+- IntCode computer: add extra blank memory and relative parameter mode
 ### Day 10
 ### Day 11
 ### Day 12
