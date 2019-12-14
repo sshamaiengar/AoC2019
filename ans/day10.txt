@@ -1,0 +1,3 @@
+Best asteroid at (19, 27), with 314 others detected
+314
+1513
