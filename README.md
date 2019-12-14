@@ -23,6 +23,8 @@
 ### Day 9
 - IntCode computer: add extra blank memory and relative parameter mode
 ### Day 10
+- Count asteroids in lines of sight on 2D grid
+- Simulate sweeps of laser clockwise around grid to destroy all asteroids
 ### Day 11
 ### Day 12
 ### Day 13
