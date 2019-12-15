@@ -16,8 +16,10 @@
 ### Day 7
 - Modify IntCode computer
    - input and output from function (not stdin/out)
+      - **TODO:** change to use generators
    - pause on output and return instruction pointer
 - Chain together IntCode computers
+   - **TODO:** maybe use threads with generators
 ### Day 8
 - Decode image based on overlapping layers of pixel values (black, white, transparent)
 ### Day 9
@@ -26,6 +28,9 @@
 - Count asteroids in lines of sight on 2D grid
 - Simulate sweeps of laser clockwise around grid to destroy all asteroids
 ### Day 11
+- Modify IntCode computer: run with continuous input/output until program halts
+   - use generator function
+- Track output of IntCode (painting robot controls) to identify painting
 ### Day 12
 ### Day 13
 ### Day 14
