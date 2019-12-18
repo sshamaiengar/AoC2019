@@ -32,6 +32,9 @@
    - use generator function
 - Track output of IntCode (painting robot controls) to identify painting
 ### Day 12
+- Track 4 moons in orbit around each other
+- Calculate energy based on positions and velocities
+- Compute period of system by identifying periods of independent axes
 ### Day 13
 ### Day 14
 ### Day 15
