@@ -36,6 +36,12 @@
 - Calculate energy based on positions and velocities
 - Compute period of system by identifying periods of independent axes
 ### Day 13
+- IntCode computer: Run Breakout game code
+    - Difficult to determine when input is needed vs. when output
+    - **TODO:** change IntCode computer to use queues, not generators where send causes next
+- Count blocks in starting state
+- Track score after all blocks destroyed by playing
+    - Could use AI for paddle control, OR hack the input to make the paddle full width
 ### Day 14
 ### Day 15
 ### Day 16
